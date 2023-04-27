@@ -1,0 +1,21 @@
+For each device:
+	We adjust two variables:
+	The mouse DPI and the scroll amount
+	
+	For each setting (e.g. 800_dpi_high_scroll)
+	Generate three graphs for a.csv, b.csv, c.csv
+	
+	From there we should be able to analyze if anything is significant based on the graphs and median/max/min for each variable
+	
+	What it should look like:
+	
+	(1) Scenario: Logitech G305 / 800 DPI / Regular Scroll
+	[graph A, graph B, graph C]
+	
+	(2) Scenario: Logitech G305 / 1600 DPI / Regular Scroll
+	[graph A, graph B, graph C]
+		* continue for all the DPI settings *
+		
+	(n) Scenario: Logitech G305 / 800 DPI / High Scroll
+	[graph A, graph B, graph C]
+		* continue for all the scroll settings*
